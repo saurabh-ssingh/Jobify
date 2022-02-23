@@ -1,0 +1,25 @@
+{
+  "name": "jobify",
+  "version": "1.0.0",
+  "description": "- create client folder\r - open terminal\r - cd client => to move to client folder\r - run command : npx create-react-app .\r - npm start or yarn start => to run the react app i.e server",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^15.0.0",
+    "express": "^4.17.2",
+    "express-async-errors": "^3.1.1",
+    "http-status-codes": "^2.2.0",
+    "mongoose": "^6.2.0",
+    "validator": "^13.7.0"
+  }
+}
